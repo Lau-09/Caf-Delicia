@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Imagen de Fondo y Barra de Navegación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="padre">
+        <img class="imagen"
+            src="https://s3-alpha-sig.figma.com/img/5c9a/4e51/19b9814d70593a871ade8bddcc48daa3?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TG-kkhNrAu4IPjQwJ3mttHGJ2r9MkjonNsCmBlcJXO6rYF~HZkB59HskOoBnb~n4POJCV6kGcpD7gt5D5EkqO7~Pxz99fJNEcnldttpJcDr7E07AWUfBDgjRBwFtz5LpN45kovMOv0T6cBZtTQGkG2pJo1Tq~Mb9UWoff0hxU41gdwHBiXnosu3S3zN2j6G2hoNuPs~l97F5LugwwmqL-UITW0wmUbwE0xKnOhkqvqg0xWQNK5CjtPSHwpww7kJaul7-bpuf~43sqlzP4KkjUvfpg5gKnSrEmhjpHpitJewzIhtEIhKddpaGQaH5bNzwpAUtgsTDUuWRGa1i4Rq9yQ__"
+            alt="Fondo de cafeteria">
+        <div class="barra">
+            <img src="./imagenes/logo-white.png" alt="logo" class="Logo" style=width:40px; height="40px">
+            <p>Café <span class="diferente">delicia</span></p>
+            <div class="botones">
+                <button onclick="cambiarColor(this)">Inicio</button>
+                <button onclick="cambiarColor(this)">Contacto</button>
+            </div>
+        </div>
+        <div class="textos">
+            <h4>Disfrutá del sabor auténtico<br>en café delicia</h4>
+            <p>Café Delicia es una experiencia única con café de alta calidad y un<br>ambiente parchado para todos.
+                ¡Vení y disfrutá de un momento de<br>delicia con nosotros!</p>
+            <p>Conocenos</p>
+            <i class="bi bi-chevron-double-down"></i>
+        </div>
+    </header>
+    <div class="hijo">
+        <div class="descripcion">
+            <div>
+                <img class="descripcion_imagen"
+                    src="https://s3-alpha-sig.figma.com/img/bfca/d664/784bb7748507039972a80209f432b740?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PX40Mc9nON1QNFQG-5pYHt-ZagRdyIB4pmVWcAYh6oGEsAAVZfBOi5j-LGMprKBVeLxQR3mEZyM4id-3ngf6tvMf2Y2-3B2SZp-Au5dEUp9Kkh-6WJZ~5TNApBdnLj0VDfYIGXqdTL2du3nOzRKddU-wIkWX0KKBxKZKdDsNcUgF7U-GeBqt2hoCHmtca~w0MVv8rnDXr3iz~sif7T5nSk7HDtip8byJavYD9YtObin26HL~k2GX2us-OwNN5Ua-H97IpSy2bLgGgOYiNXq5PL5iGX3iRkBMSIROzdiW95zkFT2ssK6w~pl1DXQ8BxX64GMWQ2wuhEIKWU3GG25BIA__"
+                    alt="Foto de café">
+            </div>
+            <div class="descripcion_texto">
+                <h3 class="titulo">Somos Café Delicia</h3>
+                <p>Una marca caleña y comprometida con ofrecerte una<br>experiencia auténtica y acogedora. Calidosos,
+                    auténticos y<br>amables en todo lo que hacemos. Buscamos crear momentos<br>de verdadera delicia para
+                    todos con nuestra selección de cafés<br>locales de primera y platos para calmarte el hambre.
+                    Nuestro<br>enfoque cálido y amistoso refleja nuestro compromiso con tu<br>satisfacción y el
+                    bienestar de
+                    los caleños.</p>
+            </div>
+        </div>
+        <article class="enfoque">
+            <div class="caracteristicas">
+                <div class="enfoque_logo">
+                    <img class="enfoque_logo_img"
+                        src="https://s3-alpha-sig.figma.com/img/dee7/e6cd/a01451163646e9fc66b241dd4a32f53e?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gWATq0ODllZoH1pNeCJH~McbfYTbwUNtTdk56ndx4QfG3xhb4wwgt2Pub3bh6UHqN2VBlSa5N7kr~r1uOF-kbbFTQvm1Kep5bVUqBZKym4rilI5bPuJ-vY~iRFpFs8pbcgpG8cuET4g9jZEI3FxZrolufyYjujtGJ1d~2uHUc2MXykuVzs-10S396NriXujKXTl5O8TrmWU89a58BefhS4I8MlYY-Skv6MhxKRkGQztjXocJtfkEXdT0w6qZfrcOH5I1M-hIpJMZWitFImHnHtyElmEdK-thPz9Imj3VWFFEdUURCjZdywfbT~U2ocIXDNNQD8NgyJX-KE3uzrJoyA__"
+                        alt="Logo origen local">
+                </div>
+                <div class="enfoque_texto">
+                    <h6 class="color" style="margin-top: 0px; margin-bottom: 0px;">Origen Local</h6>
+                    <p>Priorizamos los productos locales,<br>colaborando estrechamente con agricultores<br>del país para
+                        garantizar la frescura y calidad<br>en cada taza.</p>
+                </div>
+            </div>
+            <div class="caracteristicas">
+                <div class="enfoque_logo">
+                    <img class="enfoque_logo_img"
+                        src="https://s3-alpha-sig.figma.com/img/eb86/08f5/b84f0d66260aaf2ca6bf65f0be2d4c38?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CxGBnbni2EMkZ58dTUTm6rfXtKbNHE9tbwiAu10qyAJcS0WsFAQW8k1F7VYIcl702QJMtRrsAiZd5SvN9trBBLqnXN~-L10jxt5yrKg8Sd6Ha2DiYYtx4cSwdmL3lDUKbcN0vPfh4Hf6Lr5FW-kmqIw~Vd0krBSfaApDsbp1Q3EriDG071Gy1xvQEmLwtw5WoWwKN5h05fv0jaafsi5Ps8PGLzK1flLV6xgqooxNwKMkxfI4B~w40vpJtb-2RSXkTkCSGwmRNa2wViM80s4uEYrYI-EUoQSOwXdR3SABC95047qXQEYotU1uuHrOdDOPP6xROuzHF--8P6lyLJCJUw__"
+                        alt="Enfoque Holistico">
+                </div>
+                <div class="enfoque_texto">
+                    <h6 class="color" style="margin-top: 0px; margin-bottom: 0px;">Enfoque Holístico</h6>
+                    <p>Consideramos cada aspecto del proceso de<br>produccion con cuidado y respeto hacia
+                        la<br>naturaleza,
+                        promoviendo prácticas<br>sostenibles en cada etapa.</p>
+                </div>
+            </div>
+        </article>
+        <h3 class="titulo_servicios">Nuestros Servicios</h3>
+        <div class="servicios">
+            <div class="producto">
+                <div class="servicio_producto">
+                    <img class="img_producto"
+                        src="https://s3-alpha-sig.figma.com/img/b128/1f77/1969973e21cb1ef790a93d6059e443a2?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XKjquPNycYG~KxsUgLPK5yYnVOvdXP8u~c-I4M8PBoVvran00l66JI3aHyuHi7-PDcw4cphUyRQcg-~jm3HVcWWmwlLb7il2iI-kGJXJfrQsRJpnv51j-bn6Jqm1K-eCoMH1lmxIkXl-LTa656RNrxrmWzrrbqonO4ndDyB8Eiuy~QXJoC21pCROO9PoLpzFwvGngsiIJd7P5VEN~6C3YnaGOvra4GNphpxniP76t6KmEV1oE0SqT7itpBHy9iklKtyujTBq6SIyS4r9VjqjArB2K0pp0vVxM8y01XobMQvorq-IE2n6wTpd-1FoQQRrV4br~ZLQx17af4J0iS0tAg__"
+                        alt="Cafe y galletas">
+                </div>
+                <div class="texto_producto">
+                    <p><span class="negrita">Cafetería especializada:</span> Probá<br>nuestra panadería fresca y<br>emparejala con una bebidita
+                        caliente</p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="servicio_producto">
+                    <img class="img_producto"
+                        src="https://s3-alpha-sig.figma.com/img/6e06/cb1b/109b662872de0e6a9ff8ec2258d28f20?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HqRP5VyMKjYT~kqI4N1y02HJsDWwaRGNYggaj3pSfvnG~YAH8z1DhzftjEAbMSw5peOblm-V2Q5-Me70pHdw9Y0MHp5fUST1U5ZivjGkSPBoYatz3xH0m9MjjO4IsfTwgFxOrAnkulZ~FagGWye9XMs1rl5wlrZ2U-mKZuGzdZN9COJi~nBQXYTx8gir0RDx1l1ZMOozL-ikQ2H1OheOSuLlvgWkldT8Royanwh4iwn03SRfOLcaz9IWCRfcZx9pVlzRiUrChDB-FRnph~cCKUYbNAAo3GUKMrzpRwcNRZ1~v83QlAuNMreR4U6jtLDLQYdgvW~9tb0XM1yZnL1Hrg__"
+                        alt="Bebida fria">
+                </div>
+                <div class="texto_producto">
+                    <p><span class="negrita">¿Tenés calor?:</span> Refrescate con nuestra<br>linea de productos heladitos</p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="servicio_producto">
+                    <img class="img_producto"
+                        src="https://s3-alpha-sig.figma.com/img/e4b6/05aa/d1cf5b30ef83596fb263e67bca108ce3?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h3TIiAOuJYakyQP941phHqvNWbXdYq3k~Hh5VdOhELCWTIaiqQWrWR-aqkdVti~53PXkOLTD5OKIaCxCblCqNF7d9GRyaf85~Rsz7pNzlU7~lGrfuNiml3zL-7WKT9LX~MBMnG7edXJQU6ZOzryP35kcmn4IPwCQBBlsPdFnlYQ9HILNSYdXwPM5mqR0IHfg3M6mrS1RWDE8RkLZKWhHNkeSIzb~lZHXhIyLEZi2Hb6B0Fw~f9yIyaQ56K9~zmXZkCq-~MitGWsghtcJvsL4mDQmzpnHQWkMWSUe9Jvjbtqd3czlE2JLZkAtepVp71wiZUysvltcXwlbZaO~oKbVYg__"
+                        alt="Comida">
+                </div>
+                <div class="texto_producto">
+                    <p><span class="negrita">Bistro pa' esa hambre:</span> A cualquier hora del día, tenemos antojitos que te dan energía para seguir
+                        el día</p>
+                </div>
+            </div>
+        </div>
+        <div class="foto_2">
+            <img class="frase_img"
+                src="https://s3-alpha-sig.figma.com/img/8128/4fc9/d797fb4e3f98434e1fa3e7c07878196c?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WyPnzkZdF~6U2ev-3Yp4rqojDaHqdxG8CGwTCUnzSwibgE4ITMVPP5YqHbS5Y9CQ8ZYmADKqgxrHVo9v4f2Oney8zx9imAn47CPSmsxACn55E~R0toWfTW7kzQd0jPEGXzbN4a1XQnWKnRGmi4Uq8KdcNYGfKZT3gC7-Cxx83e7mY8hEQw78W9Z~d5g0jEjME5x3RMukQuKddclrOxy6SuijYZSVMagL4YyAmZSSHVJzSWgwIz8II50F-eefSEOx~n3Bq3FdeuWL-eUOK1ml3F8pR7QwYZxxX5y0Hz3Pe24oG2-~N0TepWQYJBATYzrbxf0xM8F5Si9mUxBPzGY4Fw__"
+                alt="Segunda imagen de fondo de fondo">
+            <div class="foto__texto">
+                <p>En Café Delicia, tomamos la vida con calma. Servimos con cuidado, sabores únicos y todo lo necesario para tu taza de cada día.</p>
+            </div>
+        </div>
+        <div class="ubicacion">
+            <div class="img_final_uno">
+                <img class="restaurante"
+                    src="https://s3-alpha-sig.figma.com/img/43da/93a6/ab6f3cb1b661c4c2c9d2cb8d4f085b11?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eRdQWqFr7Pc~xdz1kgN7Fdl0AE9y2GJKclXG0hPMdj3jvQY2UtRn-YFnGPQDCmY0hCwnykSwP9LE8zVcdgK0qynLNWCGbnMaNmiSnJTO8BASTuGvLSnR-VZH3lCTdaRChHoap0GD51QdfW6dxZ~U04AfYFwG5HIJllwrLoaOlBq~fhwaQIk6wB7DvBrWlfzeFdl111XaXNp-0Nv-9e-ksEfQQKpUq5zQBOcTcmztlLlTX7JYIpPf6BW2SQt9ejWM2E12VWc6sLR~wMVbiXGxeXJERQO8pRA20~BqWbuGD1jQy1jspMuoMhxRiFQTFj2OsebPOc2IAyur3HvlrM4ZHg__"
+                    alt="Exterior de un restaurante">
+            </div>
+            <div class="promo">
+                <h3 class="negrita_dos">¡Caénos!</h3>
+                <p>Estamos en el barrio Granada, al lado de container Park y diagonal a 1975</p>
+                <button class="contactanos">Contáctanos</button>
+            </div>
+            <div class="img_final_dos">
+                <img class="restaurante_horizontal"
+                    src="https://s3-alpha-sig.figma.com/img/05b5/c3bb/e39ecc947a8cf4c6d69294a023374ed0?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mf14uyl7wAwUkIeaKH1UEFE3RkpF-U62M-7P-7n5ShOFs7YR5sEizSy4w7e4JQiN52OQznJtujg-XA-LKitZjokmfnB63exFeL-gupcR9VuROMsq3qbs3JGvusQnK3FFObUmfIRlSreG8gbrmKv6oue4hg7OncZw2EY2tDfQzdI4f-FjDZ9ALeyDW-3tQ64piEW6QqJff~6Ot6PIRHkEM~H~1ZdtzSvvePBBuNJCdB7MO8q0sMh4teFR5oc6UOYZI-94CrgrNiMvvok8P0cYcmRZ5NY87MAIq3-kY9JONq8UBuMulMIwCF55ozqDwXd8PNEylNqlxFcVPr6Ez31HoQ__"
+                    alt="Interior de un restaurante">
+            </div>
+        </div>
+    </div>
+    <footer class="lower">
+        <div class="inferior">
+            <div class="interior">
+                <img src="./imagenes/logo-white.png" alt="logo" class="Logo" style=width:50px; height="50px">
+                <p>Café <span class="diferente">delicia</span></p>
+                <div class="interior_dos">
+                    <h3>El secreto de un café<br>rico es tomarselo entre<br><span>amigos</span></h3>
+                </div>
+            </div>
+            <div class="interior">
+                <dl>
+                    <dd>Nosotros</dd>
+                    <dd>café</dd>
+                    <dd>panadería</dd>
+                    <dd>Bistro</dd>
+                    <dd>Testimonios</dd>
+                    <dd>Historia</dd>
+                    <dd>Contacto</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="redes">
+            <img class="redes_socisles" src="./imagenes/facebook.png" alt="logo facebook" style="width: 50px;">
+            <img class="redes_socisles" src="./imagenes/instagram.png" alt="logo intagram" style="width: 50px;">
+            <!--<img class="redes_socisles" src="" alt="logo x">-->
+            <img class="redes_socisles" src="./imagenes/linkedin.png" alt="logo linkedin" style="width: 50px;">
+            <img class="redes_socisles" src="./imagenes/spotify.png" alt="logo spotify" style="width: 50px;">
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=inicializarMapa" async defer></script>-->
+
+</html>
+
+
+
+<!--contacto
+barra
+<h2>¿Querés hablar?</h2>
+<form>
+    <input type="text" id="nombre" name="nombre" required>
+    <input type="email" id="correo" name="correo" required>
+    <input type="tel" id="telefono" name="telefono" required>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <input type="submit" value="¡Hablanos!">
+</form>
+<div class="lower">
+    <img src="./imagenes/logo-white.png" alt="logo" class="Logo" style=width:50px; height="50px">
+    <p>Café <span>delicia</span></p>
+    <h3>El secreto de un café<br>rico es tomarselo entre<br><span>amigos</span></h3>
+    <dl>
+        <dd>Nosotros</dd>
+        <dd>café</dd>
+        <dd>panadería</dd>
+        <dd>Bistro</dd>
+        <dd>Testimonios</dd>
+        <dd>Historia</dd>
+        <dd>Contacto</dd>
+    </dl>
+    <div class="redes">
+        facebook
+        instagram
+        x
+        linkedin
+        spotify
+    </div>
+</div>-->
